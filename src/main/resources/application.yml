@@ -1,0 +1,28 @@
+#应用配置
+server:
+  port: 19301
+  #编码相关设值
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  server.tomcat.uri-encoding: UTF-8
+spring:
+  profiles:
+    active: ${envTag:@envTag@}
+  
+#app: 
+#  id: "@project.artifactId@"
+apollo: 
+  bootstrap:
+    enabled: true
+    namespaces: application,IT.datasource_mysql
+
+#说明
+info:
+  artifactId: "@project.artifactId@"
+  name: "@project.name@"
+  version: "@project.version@"
+  description: "@project.description@"
+  groupId: "@project.groupId@"
