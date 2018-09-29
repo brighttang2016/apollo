@@ -107,11 +107,11 @@
 			<version>1.2.1</version>
 		</dependency>
 		<!-- 工具包 -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.pujjr</groupId>
 			<artifactId>pujjr-common-simple</artifactId>
 			<version>1.0.2</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
