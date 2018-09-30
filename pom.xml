@@ -215,7 +215,7 @@
 					</execution>
 				</executions>
 			</plugin> -->
-			<plugin>
+			<!-- <plugin>
 				<artifactId>maven-jar-plugin</artifactId>
 				<executions>
 					<execution>
@@ -233,7 +233,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			<!-- 要将源码放上去，需要加入这个插件 -->
 			<plugin>
 				<artifactId>maven-source-plugin</artifactId>
